@@ -1,9 +1,11 @@
 import React from 'react';
-import "./Home.css";
+import "./styling/index.css"; // Updated path to reflect the new location
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
     <>
+      <Navbar />
       <h1 className="mainHeadertitle">Wikipedia</h1>
       <h3>Welcome to this page</h3>
     </>

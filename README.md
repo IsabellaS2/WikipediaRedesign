@@ -1,5 +1,7 @@
 #Wikipedia Redesign
 
+run project with `npm run dev`
+
 
 [WIkipedia Logo](https://www.flaticon.com/free-icon/info_17641350?k=1724756000563&log-in=google)
 

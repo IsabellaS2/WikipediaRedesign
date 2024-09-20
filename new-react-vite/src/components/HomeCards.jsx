@@ -1,5 +1,5 @@
 import React from "react";
-import "../styling/HomeCard.css";
+import "../styling/HomeCard.css"
 
 function HomeCards({ imgSrc, title, text, link }) {
    return (

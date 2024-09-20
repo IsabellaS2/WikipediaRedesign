@@ -3,7 +3,7 @@ import "./styling/index.css";
 import Navbar from "./components/Navbar.jsx";
 import HomeCards from "./components/HomeCards.jsx";
 
-function App() {
+export default function Home() {
   return (
     <>
       <Navbar />
@@ -19,18 +19,21 @@ function App() {
               placeholder="Searching Wikipedia..."
             />
             <a href="#">
-              <img className="searchIcon" src="./new-react-vite/public/assets/searchIcon.png" alt="" />
+              <img
+                className="searchIcon"
+                src="./new-react-vite/public/assets/searchIcon.png"
+                alt=""
+              />
             </a>
           </div>
         </div>
 
         <div className="globeIconContainer">
-        <img
+          <img
             className="globeIcon"
             src="./new-react-vite/public/assets/globeIcon.png" /* Add the correct path to your globe icon */
             alt="Globe Icon"
           />
-
         </div>
 
         <div className="homeCardSection">
@@ -56,5 +59,3 @@ function App() {
     </>
   );
 }
-
-export default App;

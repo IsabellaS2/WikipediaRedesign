@@ -1,5 +1,5 @@
 import React from "react";
-import "./styling/index.css";
+import "./styling/Home.css";
 import Navbar from "./components/Navbar.jsx";
 import HomeCards from "./components/HomeCards.jsx";
 
@@ -21,7 +21,7 @@ export default function Home() {
             <a href="#">
               <img
                 className="searchIcon"
-                src="./new-react-vite/public/assets/searchIcon.png"
+                src="./main/public/assets/searchIcon.png"
                 alt=""
               />
             </a>
@@ -31,7 +31,7 @@ export default function Home() {
         <div className="globeIconContainer">
           <img
             className="globeIcon"
-            src="./new-react-vite/public/assets/globeIcon.png" /* Add the correct path to your globe icon */
+            src="./main/public/assets/globeIcon.png" /* Add the correct path to your globe icon */
             alt="Globe Icon"
           />
         </div>
@@ -39,7 +39,7 @@ export default function Home() {
         <div className="homeCardSection">
           <div className="topCard">
             <HomeCards
-              imgSrc="./new-react-vite/public/assets/apples.jpg"
+              imgSrc="./main/public/assets/apples.jpg"
               title="Apples"
               text="Apples are a popular and nutritious fruit from the apple tree known for their crisp texture and sweet or tart flavor."
               link="#"
@@ -48,7 +48,7 @@ export default function Home() {
 
           <div className="bottomCard">
             <HomeCards
-              imgSrc="./new-react-vite/public/assets/apples.jpg"
+              imgSrc="./main/public/assets/apples.jpg"
               title="Apples"
               text="Apples are a popular and nutritious fruit from the apple tree known for their crisp texture and sweet or tart flavor."
               link="#"

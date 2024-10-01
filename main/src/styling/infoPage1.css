@@ -1,0 +1,116 @@
+:root {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #6ba8a9;
+}
+
+body {
+  font-family: Quicksand;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ffc27d;
+}
+
+.infoPageContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffc27d;
+}
+
+.infoHeaderSection {
+  display: flex;
+  width: 100%;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start; 
+  overflow: hidden;
+  width: 50%;
+  height: 580px; 
+}
+
+.primaryImage {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.infoTextSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  width: 50%;
+  background: #f79079;
+  padding: 3%;
+  height: 580px; 
+  padding-bottom: 12%;
+  
+}
+
+
+/* Title and description styles */
+.infoTitle {
+  color: #ffd6a8;
+  font-family: "Playfair Display";
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.infoDescription {
+  color: #ffd6a8;
+  font-size: 26px;
+  line-height: normal;
+  width: 520px; 
+
+}
+
+/* BOTTOM PART */
+.infoContentSection {
+  margin: 60px;
+}
+
+.headerWithIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.sectionTitle {
+  color: #d64220;
+  font-family: "Playfair Display";
+  font-size: 80px;
+  line-height: normal;
+  max-width: 300px;
+  margin: 0;
+}
+
+.nutritionIcon {
+  width: 232px;
+  height: 232px;
+  flex-shrink: 0;
+}
+
+.textWithImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3%;
+}
+
+.detailedDescription {
+  color: #d64220;
+  font-size: 24px;
+  line-height: normal;
+}
+
+.secondaryImage {
+  width: 600px;
+  height: 400px;
+  flex-shrink: 0;
+  margin-left: 5%;
+}

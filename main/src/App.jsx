@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./styling/index.css";
+import "./styling/Home.css";
 
 import Home from "./Home";
 import InfoPage1 from "./InfoPage1";

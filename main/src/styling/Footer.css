@@ -1,0 +1,16 @@
+.footerDiv {
+   display: flex;
+   width: 1512px;
+   height: 43px;
+   padding: 10px 993px 10px 34px;
+   align-items: center;
+   flex-shrink: 0;
+   margin-top: auto;
+}
+
+.footerNameText {
+  color: #0d1821;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 400;
+}

@@ -2,11 +2,12 @@ import React from "react";
 import "./styling/Home.css";
 import Navbar from "./components/Navbar.jsx";
 import HomeCards from "./components/HomeCards.jsx";
+import Footer from "./components/Footer.jsx";
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
+    <React.Fragment>
+      <Navbar bgColor="#F5F5F5" borderColor="#6BA8A9"/>
 
       <div className="homeContainer">
         <div className="leftContainer">
@@ -55,7 +56,11 @@ export default function Home() {
             />{" "}
           </div>
         </div>
+        
+        
       </div>
-    </>
+      <Footer bgColor="#4F8787" />
+
+    </React.Fragment>
   );
 }

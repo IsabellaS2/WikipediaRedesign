@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+
 import "./styling/infoPage1.css";
 import applesImage from "../public/assets/apples.jpg";
 import nutritionIcon from "../public/assets/nutritionIcon.png";
@@ -7,7 +9,8 @@ import nutritionIcon from "../public/assets/nutritionIcon.png";
 export default function InfoPage1() {
   return (
     <>
-      <Navbar />
+      <Navbar bgColor="#FFC27D" borderColor="#F79079"/>
+
 
       <div className="infoPageContainer">
         <div className="infoHeaderSection">
@@ -57,7 +60,11 @@ export default function InfoPage1() {
             />
           </div>
         </div>
+
       </div>
+
+      <Footer bgColor="#F79079" />
+
     </>
   );
 }

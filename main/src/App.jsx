@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styling/Home.css";
 
 import Home from "./Home";
-import InfoPage1 from "./InfoPage1";
+import InfoPage1 from "./infoPage1";
 
 export default function App() {
   return (

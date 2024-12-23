@@ -9,12 +9,11 @@ export default function Home() {
   const [catData, setCatData] = useState([]);
 
   // Move these constants outside of the useEffect
-  const baseURL = "https://api.thecatapi.com/v1/images/search"; // Base URL
-  const apikey = "live_YUQtu7qoUFuzzmPawdXulxfge0eTVlkGdxaLgaI5m0vcROtnGDxSNkSrs3kVvuy3"; // Your API key
-  const limit = 10; // Limit for the number of images
+  const baseURL = "https://api.thecatapi.com/v1/images/search";
+  const apikey = import.meta.env.VITE_API_KEY;
+  const imageLimit = 10; // Limit for the number of images
 
-  // Constructed API URL with query parameters
-  const apiUrl = `${baseURL}?limit=${limit}&api_key=${apikey}`;
+  const apiUrl = `${baseURL}?limit=${imageLimit}&api_key=${apikey}`;
 
   useEffect(() => {
     Axios.get(apiUrl)
